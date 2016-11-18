@@ -9938,6 +9938,10 @@ select.mma-mod_survey-select {
   border-radius: 4px;
   margin-bottom: 10px; }
 
+.mma-qtype-match-container select {
+  padding: 0 36px 0 0;
+  max-width: 100%; }
+
 .mma-qtype-multianswer-container p {
   margin: 0 0 .5em; }
 .mma-qtype-multianswer-container .answer div.r0, .mma-qtype-multianswer-container .answer div.r1 {
@@ -9963,7 +9967,3 @@ select.mma-mod_survey-select {
 .mma-qtype-multianswer-container input[type="radio"], .mma-qtype-multianswer-container input[type="checkbox"] {
   margin-top: -4px;
   margin-right: 7px; }
-
-.mma-qtype-match-container select {
-  padding: 0 36px 0 0;
-  max-width: 100%; }
