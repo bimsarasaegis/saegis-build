@@ -9180,6 +9180,64 @@ input.mm-fileuploader-picker {
 .has-side-menu-header {
   top: 80px; }
 
+.mma-messages-date {
+  text-align: center;
+  margin-top: 10px; }
+
+.mma-messages-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-messages-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.button.mma-messages-clear-search {
+  top: 0px; }
+
+.mma-messages-discussion-container {
+  padding-bottom: 15px; }
+
+.button.button-icon.mma-messages-delete-button {
+  min-height: initial;
+  line-height: initial; }
+  .button.button-icon.mma-messages-delete-button:before {
+    font-size: 100%;
+    line-height: initial; }
+
+.mma-messages-send-message-bar {
+  width: 100%; }
+
+.mm-site_messages-discussion .list-left-editing .item-message.item-left-editable, .mm-site_messages-discussion .item-left-editing.item-message.item-left-editable {
+  max-width: calc(80% + 35px);
+  -moz-transition: max-width ease-in-out 125ms;
+  -o-transition: max-width ease-in-out 125ms;
+  -webkit-transition: max-width ease-in-out 125ms;
+  transition: max-width ease-in-out 125ms; }
+.mm-site_messages-discussion .list-left-editing .item-left-editable .item-content, .mm-site_messages-discussion .item-left-editing.item-left-editable .item-content {
+  -webkit-transform: none;
+  transform: none;
+  padding-left: 35px;
+  -moz-transition: padding-left ease-in-out 125ms;
+  -o-transition: padding-left ease-in-out 125ms;
+  -webkit-transition: padding-right ease-in-out 125ms;
+  transition: padding-left ease-in-out 125ms;
+  background-color: transparent; }
+.mm-site_messages-discussion .list-left-editing .item-left-editable.item-message-mine .item-content, .mm-site_messages-discussion .item-left-editing.item-left-editable.item-message-mine .item-content {
+  padding-left: 0;
+  padding-right: 35px;
+  -moz-transition: padding-right ease-in-out 125ms;
+  -o-transition: padding-right ease-in-out 125ms;
+  -webkit-transition: right-right ease-in-out 125ms;
+  transition: padding-right ease-in-out 125ms; }
+.mm-site_messages-discussion .item-message-mine .item-left-edit.visible.active {
+  right: 0;
+  left: initial; }
+
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mma-grades-table {
@@ -9239,64 +9297,6 @@ input.mm-fileuploader-picker {
       border-top: 1px solid #fff; }
   .mma-grades-table .leveleven {
     background-color: #fff; }
-
-.mma-messages-date {
-  text-align: center;
-  margin-top: 10px; }
-
-.mma-messages-input-inset {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0; }
-
-.mma-messages-footer-note {
-  color: #444;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-  width: 100%; }
-
-.button.mma-messages-clear-search {
-  top: 0px; }
-
-.mma-messages-discussion-container {
-  padding-bottom: 15px; }
-
-.button.button-icon.mma-messages-delete-button {
-  min-height: initial;
-  line-height: initial; }
-  .button.button-icon.mma-messages-delete-button:before {
-    font-size: 100%;
-    line-height: initial; }
-
-.mma-messages-send-message-bar {
-  width: 100%; }
-
-.mm-site_messages-discussion .list-left-editing .item-message.item-left-editable, .mm-site_messages-discussion .item-left-editing.item-message.item-left-editable {
-  max-width: calc(80% + 35px);
-  -moz-transition: max-width ease-in-out 125ms;
-  -o-transition: max-width ease-in-out 125ms;
-  -webkit-transition: max-width ease-in-out 125ms;
-  transition: max-width ease-in-out 125ms; }
-.mm-site_messages-discussion .list-left-editing .item-left-editable .item-content, .mm-site_messages-discussion .item-left-editing.item-left-editable .item-content {
-  -webkit-transform: none;
-  transform: none;
-  padding-left: 35px;
-  -moz-transition: padding-left ease-in-out 125ms;
-  -o-transition: padding-left ease-in-out 125ms;
-  -webkit-transition: padding-right ease-in-out 125ms;
-  transition: padding-left ease-in-out 125ms;
-  background-color: transparent; }
-.mm-site_messages-discussion .list-left-editing .item-left-editable.item-message-mine .item-content, .mm-site_messages-discussion .item-left-editing.item-left-editable.item-message-mine .item-content {
-  padding-left: 0;
-  padding-right: 35px;
-  -moz-transition: padding-right ease-in-out 125ms;
-  -o-transition: padding-right ease-in-out 125ms;
-  -webkit-transition: right-right ease-in-out 125ms;
-  transition: padding-right ease-in-out 125ms; }
-.mm-site_messages-discussion .item-message-mine .item-left-edit.visible.active {
-  right: 0;
-  left: initial; }
 
 .mm-site_mod_assign div.latesubmission, .mm-site_mod_assign-submission div.latesubmission {
   background-color: #efcfcf; }
@@ -9493,23 +9493,6 @@ p.mma-mod-assign-warning {
 .mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
   margin: 0; }
 
-.mma-mod_choice-user {
-  position: relative;
-  display: inline-block; }
-  .mma-mod_choice-user img {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    left: 50%;
-    margin-left: -20px; }
-  .mma-mod_choice-user p {
-    display: inline-block;
-    padding-top: 50px; }
-
-.mma-mod_choice-graph-horizontal {
-  height: 50px; }
-
 .mma-forum-discussion-link {
   text-decoration: none; }
 
@@ -9527,44 +9510,79 @@ p.mma-mod-assign-warning {
   .mm-site_mod_forum-discussion .card.highlight .item.item-heading h2, .mm-site_mod_forum-discussion .card.highlight .item.item-heading .item-heading {
     font-weight: bold; }
 
-p.mma-mod-quiz-warning {
-  color: #c00; }
+.mma-mod_choice-user {
+  position: relative;
+  display: inline-block; }
+  .mma-mod_choice-user img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -20px; }
+  .mma-mod_choice-user p {
+    display: inline-block;
+    padding-top: 50px; }
 
-.mm-site_mod_quiz .row, .mm-site_mod_quiz-player .row {
-  min-height: 57px; }
-  .mm-site_mod_quiz .row .button.button-block, .mm-site_mod_quiz-player .row .button.button-block {
-    margin: 0; }
+.mma-mod_choice-graph-horizontal {
+  height: 50px; }
 
-.item.mma-mod-quiz-highlighted, .platform-android .item.mma-mod-quiz-highlighted, .platform-ios .item.mma-mod-quiz-highlighted, .mma-mod-quiz-table .item.row.mma-mod-quiz-highlighted {
-  background-color: #d9edf7; }
+.mma-mod_survey-darkbg {
+  background-color: #f1f1f1; }
 
-.mma-quiz-textarea {
-  width: 100%;
-  height: 250px;
-  resize: none; }
+.mma-mod_survey-padding-top {
+  padding-top: 20px; }
 
-.mma-mod-quiz-subheader .row {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-.mma-mod-quiz-subheader .col {
-  padding-top: 0px;
-  padding-bottom: 0px; }
-.mma-mod-quiz-subheader .mm-timer {
-  line-height: 32px; }
+textarea.mma-mod_survey-textarea {
+  height: 100px;
+  border: 1px solid #ddd; }
 
-.mma-mod-quiz-table .row:nth-child(odd) {
-  background-color: #fbfbfb; }
+select.mma-mod_survey-select {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 32px;
+  max-width: 100%; }
+  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
+    display: none; }
 
-.mma-mod_quiz-connection-error, ion-popover-view.popover.mma-mod_quiz-connection-error {
-  background-color: #fcc; }
+.wiki-toc {
+  border: 1px solid #bbb;
+  background: #eee;
+  margin: 16px;
+  padding: 8px; }
 
-.mm-site_mod_quiz-review .item h3 {
-  font-size: 18px; }
+.wiki-toc-title {
+  color: #666;
+  font-size: 1.1em;
+  font-variant: small-caps;
+  text-align: center; }
 
-.item.mma-mod-quiz-selected, .platform-android .item.mma-mod-quiz-selected, .platform-ios .item.mma-mod-quiz-selected, .mma-mod-quiz-table .item.row.mma-mod-quiz-selected {
-  border: 3px solid #666; }
-  .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .platform-android .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .platform-ios .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .mma-mod-quiz-table .item.row.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page) {
-    border-bottom: 0; }
+.wiki-toc-section {
+  padding: 0;
+  margin: 2px 8px; }
+
+.wiki-toc-section-2 {
+  padding-left: 12px; }
+
+.wiki-toc-section-3 {
+  padding-left: 24px; }
+
+.mm-site_mod_wiki .wiki_newentry {
+  color: red;
+  font-style: italic; }
+
+/* Hide edit section links */
+.mma-mod_wiki-noedit a.wiki_edit_section {
+  display: none; }
+
+.mma-mod_wiki-subwiki-picker .item-divider {
+  font-weight: bold; }
+
+.mma-mod_wiki-subwiki-picker .item.item-selected {
+  background-color: #eee; }
+
+.mma-mod_wiki-subwiki-picker .item.item-selected .icon {
+  font-size: 24px; }
 
 .mma-scorm-level-0 {
   padding-left: 16px; }
@@ -9643,62 +9661,44 @@ ion-popover-view {
   padding-top: 10px;
   padding-bottom: 10px; }
 
-.mma-mod_survey-darkbg {
-  background-color: #f1f1f1; }
+p.mma-mod-quiz-warning {
+  color: #c00; }
 
-.mma-mod_survey-padding-top {
-  padding-top: 20px; }
+.mm-site_mod_quiz .row, .mm-site_mod_quiz-player .row {
+  min-height: 57px; }
+  .mm-site_mod_quiz .row .button.button-block, .mm-site_mod_quiz-player .row .button.button-block {
+    margin: 0; }
 
-textarea.mma-mod_survey-textarea {
-  height: 100px;
-  border: 1px solid #ddd; }
+.item.mma-mod-quiz-highlighted, .platform-android .item.mma-mod-quiz-highlighted, .platform-ios .item.mma-mod-quiz-highlighted, .mma-mod-quiz-table .item.row.mma-mod-quiz-highlighted {
+  background-color: #d9edf7; }
 
-select.mma-mod_survey-select {
-  background-color: transparent;
-  padding-left: 0px;
-  padding-right: 32px;
-  max-width: 100%; }
-  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
-    display: none; }
+.mma-quiz-textarea {
+  width: 100%;
+  height: 250px;
+  resize: none; }
 
-.wiki-toc {
-  border: 1px solid #bbb;
-  background: #eee;
-  margin: 16px;
-  padding: 8px; }
+.mma-mod-quiz-subheader .row {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+.mma-mod-quiz-subheader .col {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+.mma-mod-quiz-subheader .mm-timer {
+  line-height: 32px; }
 
-.wiki-toc-title {
-  color: #666;
-  font-size: 1.1em;
-  font-variant: small-caps;
-  text-align: center; }
+.mma-mod-quiz-table .row:nth-child(odd) {
+  background-color: #fbfbfb; }
 
-.wiki-toc-section {
-  padding: 0;
-  margin: 2px 8px; }
+.mma-mod_quiz-connection-error, ion-popover-view.popover.mma-mod_quiz-connection-error {
+  background-color: #fcc; }
 
-.wiki-toc-section-2 {
-  padding-left: 12px; }
+.mm-site_mod_quiz-review .item h3 {
+  font-size: 18px; }
 
-.wiki-toc-section-3 {
-  padding-left: 24px; }
-
-.mm-site_mod_wiki .wiki_newentry {
-  color: red;
-  font-style: italic; }
-
-/* Hide edit section links */
-.mma-mod_wiki-noedit a.wiki_edit_section {
-  display: none; }
-
-.mma-mod_wiki-subwiki-picker .item-divider {
-  font-weight: bold; }
-
-.mma-mod_wiki-subwiki-picker .item.item-selected {
-  background-color: #eee; }
-
-.mma-mod_wiki-subwiki-picker .item.item-selected .icon {
-  font-size: 24px; }
+.item.mma-mod-quiz-selected, .platform-android .item.mma-mod-quiz-selected, .platform-ios .item.mma-mod-quiz-selected, .mma-mod-quiz-table .item.row.mma-mod-quiz-selected {
+  border: 3px solid #666; }
+  .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .platform-android .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .platform-ios .item.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page), .mma-mod-quiz-table .item.row.mma-mod-quiz-selected:not(.mma-mod-quiz-last-of-page) {
+    border-bottom: 0; }
 
 .qbehaviour_deferredcbm_actual_percentage {
   font-weight: bold; }
